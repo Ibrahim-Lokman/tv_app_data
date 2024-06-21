@@ -1,0 +1,169 @@
+{
+    "categories": [
+        {
+            "name": "Software Dev",
+            "details": "Overview of software development concepts and practices.",
+            "subcategories": [
+                {
+                    "name": "Programming Languages",
+                    "details": "Explanation of different programming languages and their uses.",
+                    "has_subcategories": true,
+                    "subcategories": [
+                        {
+                            "name": "Object-Oriented Programming (OOP)",
+                            "details": "Concepts of classes, objects, inheritance, polymorphism, etc.",
+                            "has_subcategories": false,
+                            "leaf_items": [
+                                {
+                                    "name": "Java Tutorial",
+                                    "details": "Step-by-step guide to learn Java programming.",
+                                    "parent_subcategory": "Programming Languages"
+                                },
+                                {
+                                    "name": "C++ for Beginners",
+                                    "details": "Introduction to C++ syntax and concepts.",
+                                    "parent_subcategory": "Programming Languages"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Functional Programming",
+                            "details": "Principles of functional programming and its applications.",
+                            "has_subcategories": false,
+                            "leaf_items": [
+                                {
+                                    "name": "Introduction to Haskell",
+                                    "details": "Learn the basics of Haskell, a functional programming language.",
+                                    "parent_subcategory": "Programming Languages"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Software Design Patterns",
+                    "details": "Reusable solutions to common software design problems.",
+                    "has_subcategories": false,
+                    "leaf_items": [
+                        {
+                            "name": "Singleton Pattern Explained",
+                            "details": "Explanation of the Singleton design pattern and its uses.",
+                            "parent_subcategory": "Software Design Patterns"
+                        },
+                        {
+                            "name": "Factory Pattern Tutorial",
+                            "details": "Guide to understand and implement the Factory design pattern.",
+                            "parent_subcategory": "Software Design Patterns"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Travel",
+            "details": "Explore destinations, discover travel tips, and plan your dream vacation.",
+            "subcategories": [
+                {
+                    "name": "Destinations",
+                    "details": "Find inspiration for your next trip, from bustling cities to serene beaches.",
+                    "has_subcategories": true,
+                    "subcategories": [
+                        {
+                            "name": "Asia",
+                            "details": "Uncover the rich culture and landscapes of Asian countries.",
+                            "has_subcategories": false,
+                            "leaf_items": [
+                                {
+                                    "name": "Japan: Land of the Rising Sun",
+                                    "details": "Explore ancient temples, bustling cities, and breathtaking scenery.",
+                                    "parent_subcategory": "Asia"
+                                },
+                                {
+                                    "name": "Thailand: Beaches, Temples, and Delicious Food",
+                                    "details": "Experience beautiful beaches, ornate temples, and a vibrant culinary scene.",
+                                    "parent_subcategory": "Asia"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Europe",
+                            "details": "Immerse yourself in history, art, and charming towns throughout Europe.",
+                            "has_subcategories": false,
+                            "leaf_items": [
+                                {
+                                    "name": "Italy: Explore the Colosseum, Leaning Tower of Pisa, and More",
+                                    "details": "Discover the rich history, art, and delicious food of Italy.",
+                                    "parent_subcategory": "Europe"
+                                },
+                                {
+                                    "name": "France: The City of Lights, Charming Villages, and Stunning Landscapes",
+                                    "details": "Experience iconic landmarks, romantic villages, and diverse landscapes in France.",
+                                    "parent_subcategory": "Europe"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "North America",
+                            "details": "Explore diverse landscapes, from national parks to bustling cities in North America.",
+                            "has_subcategories": false,
+                            "leaf_items": [
+                                {
+                                    "name": "National Parks of the USA: Yellowstone, Yosemite, and Beyond",
+                                    "details": "Experience the stunning beauty and natural wonders of US national parks.",
+                                    "parent_subcategory": "North America"
+                                },
+                                {
+                                    "name": "Canadian Rockies: Hiking, Skiing, and Breathtaking Scenery",
+                                    "details": "Explore the majestic mountains, glaciers, and lakes of the Canadian Rockies.",
+                                    "parent_subcategory": "North America"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Travel Tips",
+                    "details": "Learn valuable tips for planning, budgeting, and experiencing the best of your travels.",
+                    "has_subcategories": false,
+                    "leaf_items": [
+                        {
+                            "name": "Packing Hacks for Light and Efficient Travel",
+                            "details": "Learn how to pack light and efficiently for your next trip.",
+                            "parent_subcategory": "Travel Tips"
+                        },
+                        {
+                            "name": "Budget Travel: Tips for Saving Money on Your Vacation",
+                            "details": "Discover ways to save money on flights, accommodation, and activities while traveling.",
+                            "parent_subcategory": "Travel Tips"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Movies",
+            "details": "A collection of information about various movies.",
+            "subcategories": [
+                {
+                    "name": "Genres",
+                    "details": "Different movie genres and their characteristics.",
+                    "has_subcategories": true,
+                    "subcategories": [
+                        {
+                            "name": "Action",
+                            "details": "Movies with exciting stunts, fights, and chases.",
+                            "has_subcategories": false,
+                            "leaf_items": []
+                        },
+                        {
+                            "name": "Comedy",
+                            "details": "Movies intended to make the audience laugh.",
+                            "has_subcategories": false,
+                            "leaf_items": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
