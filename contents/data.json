@@ -1,46 +1,164 @@
 {
-    "categories": [
-        "Frontend Development",
-        "Backend Development",
-        "Mobile App Development",
-        "Data Science",
-        "DevOps"
-    ],
-    "items": [
-        [
-            "React",
-            "Vue.js",
-            "Angular",
-            "Svelte",
-            "Next.js"
-        ],
-        [
-            "Node.js",
-            "Python/Django",
-            "Ruby on Rails",
-            "Java/Spring",
-            "C#/.NET"
-        ],
-        [
-            "React Native",
-            "Flutter",
-            "Swift",
-            "Kotlin",
-            "Xamarin"
-        ],
-        [
-            "Python/Pandas",
-            "R",
-            "TensorFlow",
-            "PyTorch",
-            "Scikit-learn"
-        ],
-        [
-            "Docker",
-            "Kubernetes",
-            "Jenkins",
-            "Ansible",
-            "Terraform"
-        ]
-    ]
+  "categories": [
+    {
+      "id": "software_dev",
+      "name": "Software Development",
+      "description": "Various fields within software development",
+      "subcategories": [
+        {
+          "id": "frontend",
+          "name": "Frontend Development",
+          "description": "Creating user interfaces and experiences"
+        },
+        {
+          "id": "backend",
+          "name": "Backend Development",
+          "description": "Server-side logic and database management"
+        },
+        {
+          "id": "mobile",
+          "name": "Mobile App Development",
+          "description": "Developing applications for mobile devices",
+          "subcategories": [
+            {
+              "id": "ios",
+              "name": "iOS Development",
+              "description": "Creating apps for Apple's mobile platform"
+            },
+            {
+              "id": "android",
+              "name": "Android Development",
+              "description": "Building apps for the Android ecosystem"
+            }
+          ]
+        },
+        {
+          "id": "devops",
+          "name": "DevOps",
+          "description": "Practices combining software development and IT operations"
+        }
+      ]
+    },
+    {
+      "id": "movies",
+      "name": "Movies",
+      "description": "Various genres of films",
+      "subcategories": [
+        {
+          "id": "action",
+          "name": "Action",
+          "description": "High-energy films with intense sequences"
+        },
+        {
+          "id": "comedy",
+          "name": "Comedy",
+          "description": "Films designed to make audiences laugh"
+        },
+        {
+          "id": "scifi",
+          "name": "Science Fiction",
+          "description": "Imaginative and futuristic concepts"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "react",
+      "name": "React",
+      "description": "A JavaScript library for building user interfaces",
+      "categories": ["frontend", "mobile"],
+      "details": {
+        "language": "JavaScript",
+        "type": "Library",
+        "creator": "Facebook",
+        "initial_release": "2013",
+        "current_version": "18.2.0",
+        "website": "https://reactjs.org/"
+      }
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "description": "JavaScript runtime built on Chrome's V8 JavaScript engine",
+      "categories": ["backend", "devops"],
+      "details": {
+        "language": "JavaScript",
+        "type": "Runtime environment",
+        "creator": "Ryan Dahl",
+        "initial_release": "2009",
+        "current_version": "18.16.0",
+        "website": "https://nodejs.org/"
+      }
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter",
+      "description": "Google's UI toolkit for building natively compiled applications",
+      "categories": ["mobile", "frontend"],
+      "details": {
+        "language": "Dart",
+        "type": "SDK",
+        "creator": "Google",
+        "initial_release": "2017",
+        "current_version": "3.10.0",
+        "website": "https://flutter.dev/"
+      }
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "description": "Platform for developing, shipping, and running applications in containers",
+      "categories": ["devops"],
+      "details": {
+        "type": "Containerization platform",
+        "creator": "Solomon Hykes",
+        "initial_release": "2013",
+        "current_version": "23.0.6",
+        "website": "https://www.docker.com/"
+      }
+    },
+    {
+      "id": "inception",
+      "name": "Inception",
+      "description": "A thief who steals corporate secrets through dream-sharing technology",
+      "categories": ["action", "scifi"],
+      "details": {
+        "director": "Christopher Nolan",
+        "release_year": 2010,
+        "duration": 148,
+        "lead_actor": "Leonardo DiCaprio",
+        "budget": "$160 million",
+        "box_office": "$836.8 million"
+      }
+    },
+    {
+      "id": "the_hangover",
+      "name": "The Hangover",
+      "description": "Three friends try to piece together events of a wild bachelor party",
+      "categories": ["comedy"],
+      "details": {
+        "director": "Todd Phillips",
+        "release_year": 2009,
+        "duration": 100,
+        "lead_actor": "Bradley Cooper",
+        "budget": "$35 million",
+        "box_office": "$467.5 million"
+      }
+    },
+    {
+      "id": "the_matrix",
+      "name": "The Matrix",
+      "description": "A computer programmer discovers the hidden world of the Matrix",
+      "categories": ["action", "scifi"],
+      "details": {
+        "directors": "The Wachowskis",
+        "release_year": 1999,
+        "duration": 136,
+        "lead_actor": "Keanu Reeves",
+        "budget": "$63 million",
+        "box_office": "$466.3 million"
+      }
+    }
+  ]
 }
