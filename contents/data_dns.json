@@ -1,7 +1,7 @@
 {
     "categories": [
         {
-            "name": "Software Dev",
+            "name": "Software Dev (Online)",
             "details": "Overview of software development concepts and practices.",
             "subcategories": [
                 {
@@ -60,7 +60,7 @@
             ]
         },
         {
-            "name": "Travel",
+            "name": "Travel (Online)",
             "details": "Explore destinations, discover travel tips, and plan your dream vacation.",
             "subcategories": [
                 {
@@ -141,7 +141,7 @@
             ]
         },
         {
-            "name": "Movies",
+            "name": "Movies (Online)",
             "details": "A collection of information about various movies.",
             "subcategories": [
                 {
