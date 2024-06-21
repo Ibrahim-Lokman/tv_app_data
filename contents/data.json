@@ -1,46 +1,46 @@
 {
     "categories": [
-        "Action Movies",
-        "Comedy Shows",
-        "Sci-Fi Series",
-        "Documentaries",
-        "Animated Films"
+        "Frontend Development",
+        "Backend Development",
+        "Mobile App Development",
+        "Data Science",
+        "DevOps"
     ],
     "items": [
         [
-            "The Matrix",
-            "Inception",
-            "Die Hard",
-            "Mad Max",
-            "John Wick"
+            "React",
+            "Vue.js",
+            "Angular",
+            "Svelte",
+            "Next.js"
         ],
         [
-            "Friends",
-            "The Office",
-            "Brooklyn Nine-Nine",
-            "Parks and Recreation",
-            "Modern Family"
+            "Node.js",
+            "Python/Django",
+            "Ruby on Rails",
+            "Java/Spring",
+            "C#/.NET"
         ],
         [
-            "Stranger Things",
-            "Black Mirror",
-            "The Expanse",
-            "Westworld",
-            "Dark"
+            "React Native",
+            "Flutter",
+            "Swift",
+            "Kotlin",
+            "Xamarin"
         ],
         [
-            "Planet Earth",
-            "The Social Dilemma",
-            "Free Solo",
-            "March of the Penguins",
-            "The Last Dance"
+            "Python/Pandas",
+            "R",
+            "TensorFlow",
+            "PyTorch",
+            "Scikit-learn"
         ],
         [
-            "Toy Story",
-            "Spirited Away",
-            "Zootopia",
-            "The Lion King",
-            "Coco"
+            "Docker",
+            "Kubernetes",
+            "Jenkins",
+            "Ansible",
+            "Terraform"
         ]
     ]
 }
