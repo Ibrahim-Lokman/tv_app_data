@@ -1,0 +1,46 @@
+{
+    "categories": [
+        "Action Movies",
+        "Comedy Shows",
+        "Sci-Fi Series",
+        "Documentaries",
+        "Animated Films"
+    ],
+    "items": [
+        [
+            "The Matrix",
+            "Inception",
+            "Die Hard",
+            "Mad Max",
+            "John Wick"
+        ],
+        [
+            "Friends",
+            "The Office",
+            "Brooklyn Nine-Nine",
+            "Parks and Recreation",
+            "Modern Family"
+        ],
+        [
+            "Stranger Things",
+            "Black Mirror",
+            "The Expanse",
+            "Westworld",
+            "Dark"
+        ],
+        [
+            "Planet Earth",
+            "The Social Dilemma",
+            "Free Solo",
+            "March of the Penguins",
+            "The Last Dance"
+        ],
+        [
+            "Toy Story",
+            "Spirited Away",
+            "Zootopia",
+            "The Lion King",
+            "Coco"
+        ]
+    ]
+}
